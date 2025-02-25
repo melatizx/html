@@ -1,0 +1,70 @@
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+.cabecalho{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.principal .chamada{
+    margin: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.principal .chamada img{
+    width: 470px;
+    height: 320px;
+}
+.artigos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.artigos .secao{
+    color: black;
+    margin: 80px;
+}
+.artigos .secao.s1 img{
+    width: 470px; 
+}
+.artigos .secao.s2 img{
+    width: 400px;
+    height: 200px;
+}
+.artigos .secao.s3 img{
+    width: 400px;
+    height: 200px;
+}
